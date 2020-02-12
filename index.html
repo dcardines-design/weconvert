@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<link rel="stylesheet" type="text/css" href="/Users/dantecardines/Desktop/weconvert/stylesheet.css" />
+	
+	<div class="gradientbox">
+	</div>
+	
+		<div class="from_section">
+		<form>
+			<input type="number" class="from_form" id="fromValue" ondrop="return false;" onpaste="return false;" placeholder="FROM" value="" onkeyup="METERgetSelected();"/>		
+		</form>
+		</div>
+
+	<h2> = </h2>
+
+		<div class="to_section">
+		<form>
+			<input type="number" class="to_form" id="toValue" ondrop="return false;" onpaste="return false;" placeholder="TO" onkeyup="METERgetSelected();" disabled/> 
+		</form>
+		</div>
+
+	<div class="from_buttonbox">
+	
+		<label>
+		<input type="radio" name="from" value="m" id="fromMETER" onclick="METERgetSelected();">
+		<span class="first"> METER </span><span class="last"> m </span>
+		<br>
+		</label>
+
+		<label>
+		<input type="radio" name="from" value="cm" id="fromCENTIMETER" onclick="METERgetSelected();">
+		<span class="first"> CENTIMETER </span><span class="last"> cm </span>
+		<br>
+		</label>
+
+		<label>
+		<input type="radio" name="from" value="mm" id="fromMILLIMETER" onclick="METERgetSelected();">
+		<span class="first">MILLIMETER </span><span class="last"> mm </span>
+		<br>
+		</label>
+
+		<label>
+		<input type="radio" name="from" value="in" id="fromINCHES" onclick="METERgetSelected();">
+		<span class="first"> INCHES </span><span class="last"> in </span>
+		<br>
+		</label>
+		
+		<label>
+		<input type="radio" name="from" value="px" id="fromPIXEL" onclick="METERgetSelected();">
+		<span class="first"> PIXEL </span><span class="last"> px </span>
+		<br>
+		</label>
+
+		<label>
+		<input type="radio" name="from" value="p" id="fromPICA" onclick="METERgetSelected();">
+		<span class="first"> PICA </span><span class="last"> p </span>
+		<br>
+		</label>
+
+		<label>
+		<input type="radio" name="from" value="pt" id="fromPOINT" onclick="METERgetSelected();">
+		<span class="first"> POINT </span><span class="last"> pt </span>
+		<br>
+		</label>
+	
+	</div>
+
+	<div class="to_buttonbox">
+		
+		<label>
+			<input type="radio" name="to" value="m" id="toMETER" onclick="METERgetSelected();">
+			<span class="first"> METER </span><span class="last"> m </span>
+			<br>
+			</label>
+	
+			<label>
+			<input type="radio" name="to" value="cm" id="toCENTIMETER" onclick="METERgetSelected();">
+			<span class="first"> CENTIMETER </span><span class="last"> cm </span>
+			<br>
+			</label>
+	
+			<label>
+			<input type="radio" name="to" value="mm" id="toMILLIMETER" onclick="METERgetSelected();">
+			<span class="first">MILLIMETER </span><span class="last"> mm </span>
+			<br>
+			</label>
+	
+			<label>
+			<input type="radio" name="to" value="in" id="toINCHES" onclick="METERgetSelected();">
+			<span class="first"> INCHES </span><span class="last"> in </span>
+			<br>
+			</label>
+			
+			<label>
+			<input type="radio" name="to" value="px" id="toPIXEL" onclick="METERgetSelected();">
+			<span class="first"> PIXEL </span><span class="last"> px </span>
+			<br>
+			</label>
+	
+			<label>
+			<input type="radio" name="to" value="p" id="toPICA" onclick="METERgetSelected();">
+			<span class="first"> PICA </span><span class="last"> p </span>
+			<br>
+			</label>
+	
+			<label>
+			<input type="radio" name="to" value="pt" id="toPOINT" onclick="METERgetSelected();">
+			<span class="first"> POINT </span><span class="last"> pt </span>
+			<br>
+			</label>
+
+	</div>
+	
+
+	
+	<h1> FORMULA </h1>
+
+	<div class="formula">	
+		<div class="formula_output" id="formula_output">
+			<!--METER METER METER METER-->
+			<p class="formula_text" id="formula_text"> </p>
+		</div>
+	</div>
+		
+	<div class="dpi_section">
+	<form>
+		<input type="number" class="dpi_form" id="dpiValue" ondrop="return false;" onpaste="return false;" placeholder="DPI" min="0" max="300" onkeyup="METERgetSelected();"/>
+		
+	</form>
+
+	<p>(DPI = dots per inch)<br>
+	*for some pixel conversions</p>
+	</div>
+	
+	<div class="designtag">
+		<p class=designedby>
+			DESIGNED & <br> DEVELOPED BY
+		</p>
+
+		<p class="dgc"> 
+			DGC 
+		</p>
+
+		<P class="ver">
+			VER. 1
+		</P>
+	</div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
