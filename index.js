@@ -255,7 +255,7 @@ for (var ti = 0, tLength = fromRadios.length; ti < tLength; ti++)
     } else if (fromRadios[fi].value == "in" && toRadios[ti].value == "px" && dpiValue > 0) {
             var operatorValue = fromValue * dpiValue;
             document.getElementById('toValue').value = operatorValue.toFixed(2);
-            document.getElementById('formula_text').innerHTML = "multiple the length value to the DPI";    
+            document.getElementById('formula_text').innerHTML = "multiply the length value to the DPI";    
     }
     
     if (fromRadios[fi].value == "px" && toRadios[ti].value == "px") {
