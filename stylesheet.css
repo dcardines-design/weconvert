@@ -444,11 +444,16 @@ h2 {
 /* FORMULA SECTION */
 
 .formula_output {
-  position: absolute;
-  height: 93pt;
-  width: 314pt;
-  border-radius: 5pt;
-  background-color: #4DB1FF;
+    position: absolute;
+    width: 161px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+:root{
+  --web-view-ids: iPhone_X_XS_11_Pro___1;
 }
 
 .formula {
