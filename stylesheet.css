@@ -532,18 +532,20 @@ h1 {
 /* TO SECTION TO SECTION TO SECTION TO SECTION TO SECTION TO SECTION */
 
 .to_section {
-  position: fixed;
+  position: absolute;
   left: 30px;
   top: 270px;
 }
 
-input, .to_form[type=number]{
-  width: 206px;
+input, .to_form[type=number] {
+  width: 225px;
   height: 72px;
   size: 25px;
   border: 1px dashed #4DB1FF;
   border-style: dashed;
   border-radius: 5px;
+  background-color: #4DB1FF;
+  transition: 0.3s;
   padding-left: 21px;
 }
 
