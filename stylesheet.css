@@ -944,13 +944,8 @@ h2 {
 }
 
 h1 {
-  position: absolute;
-  left: 0px;
-  top: 0px;
   overflow: visible;
   width: 60px;
-  white-space: nowrap;
-  text-align: left;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
