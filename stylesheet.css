@@ -390,6 +390,9 @@ h2 {
 }
 
 @media only screen and (min-width:320px) and (max-width:500px){
+ 
+ 
+/* TAGS */ 
   .welogo {
     margin: 0% auto;
     position: fixed;
@@ -401,7 +404,7 @@ h2 {
 
   .dgc {
     Font-family: Montserrat;
-    Font-size: 2em;
+    Font-size: 22.5pt;
     Font-weight: 600;
     color: #FFF;
     position: fixed;
@@ -436,22 +439,22 @@ h2 {
   margin-block-end: 0;
   letter-spacing: 2px;
 }
-
+/* TAGS */
 
 /* FORMULA SECTION */
 
 .formula_output {
   position: absolute;
-  height: 14.3em;
-  width: 42.5em;
-  border-radius: .75em;
+  height: 93pt;
+  width: 314pt;
+  border-radius: 5pt;
   background-color: #4DB1FF;
 }
 
 .formula {
   position: absolute;
-  top: 50em;
-  left: 5em;
+  top: 457.5pt;
+  left: 30pt;
   color: #4DB1FF;
 }
 
