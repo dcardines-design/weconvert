@@ -392,10 +392,11 @@ h2 {
 @media only screen and (min-width:320px) and (max-width:500px){
   .welogo {
     margin: 0% auto;
+    position: fixed;
     top: 50px;
     right: 50px;
-    height: 3.5em;
-    width: 5.5em;
+    height: 2em;
+    width: 3.5em;
   }
 
   .dgc {
