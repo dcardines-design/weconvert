@@ -309,7 +309,7 @@ label, .dpi_form {
   color: #4DB1FF;
 }
 
-h1 {
+.formula h1 {
   position: absolute;
   Font-family: Montserrat;
   Font-size: 10px;
