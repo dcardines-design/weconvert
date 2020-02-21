@@ -456,7 +456,7 @@ h2 {
   font-family: Montserrat;
   font-size: 10px;
   font-weight: 200;
-  position: fixed;
+  position: absolute;
   top: 85px;
   color: #fff;
 }
