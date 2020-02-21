@@ -464,7 +464,7 @@ h2 {
 .dpi_section {
   position: absolute;
   left: 30px;
-  top: 400;
+  top: 420;
 }
 
 input, .dpi_form[type=number]{
@@ -486,7 +486,7 @@ input, .dpi_form[type=number]{
 .formula {
   position: absolute;
   left: 30px;
-  top: 380px;
+  top: 400px;
   color: #4DB1FF;
 }
 
