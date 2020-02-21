@@ -491,8 +491,8 @@ input, .dpi_form[type=number]{
 }
 
 .formula_output {
-  height: 248px;
-  width: 161px;
+  height: 93px;
+  width: 314px;
   border-radius: 5px;
   background-color: #4DB1FF;
 }
