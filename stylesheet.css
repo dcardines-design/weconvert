@@ -456,13 +456,13 @@ h2 {
   font-family: Montserrat;
   font-size: 10px;
   font-weight: 200;
-  position: absolute;
+  position: fixed;
   top: 85px;
   color: #fff;
 }
 
 .dpi_section {
-  position: absolute;
+  position: fixed;
   left: 30px;
   top: 440;
 }
@@ -484,7 +484,7 @@ input, .dpi_form[type=number]{
 /* FORMULA SECTION FORMULA SECTIOM FORMULA SECTION FORMULA SECTION FORMULA SECTION */
 
 .formula {
-  position: absolute;
+  position: fixed;
   left: 30px;
   top: 380px;
   color: #4DB1FF;
@@ -496,7 +496,7 @@ h1 {
   letter-spacing: 1.3px;
   Font-weight: 600;
   Color: #fff;
-  position: absolute;
+  position: fixed;
   top: 360px;
   left: 30px;
 }
