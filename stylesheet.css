@@ -458,44 +458,37 @@ h2 {
 
 .formula {
   position: absolute;
-  top: 457.5pt;
-  left: 30pt;
-  color: #4DB1FF;
+  width: 314px;
+  height: 116px;
+  left: 30px;
+  top: 434.5px;
+  overflow: visible;
 }
 
 .formula_output p {
-  padding-top: .6em;
-  padding-right: .8em;
-  padding-bottom: .8em;
-  padding-left: .8em;
-  position: relative;
-  Font-family: Montserrat;
-  Font-size: 2em;
-  Font-weight: 350;
-  color: #fff;
-  margin-block-start: 2px;
-  margin-block-end: 5px;
+  position: absolute;
+  overflow: visible;
+  width: 314px;
+  height: 93px;
+  left: 0px;
+  top: 23px;
 }
 
 h1 {
-
-  .gradientbox{
-    background-image: linear-gradient(to top right, rgb(0, 75, 150), rgb(6, 170, 247));
-    /* Set rules to fill background */
-    min-height: 100%;
-    min-width: 1024px;
-    animation: change 10s ease-in-out infinite;
-      
-    /* Set up proportionate scaling */
-    width: 100%;
-    height: auto;
-      
-    /* Set up positioning */
-    position: fixed;
-    top: 0;
-    left: 0;
-    
-    }
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+  width: 60px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  color: rgba(255,255,255,1);
+  letter-spacing: 1px;
+}
 
 .from_buttonbox label span.first{
     background-color: transparent;
@@ -923,33 +916,17 @@ h2 {
 
 /* FORMULA SECTION */
 
-.formula_output {
-  position: absolute;
-  overflow: visible;
-  width: 314px;
-  height: 93px;
-  left: 0px;
-  top: 23px;
-}
-
 :root{
   --web-view-ids: iPhone_X_XS_11_Pro___1;
 }
 
 .formula {
   position: absolute;
-  left: 0px;
-  top: 0px;
+  width: 314px;
+  height: 116px;
+  left: 30px;
+  top: 434.5px;
   overflow: visible;
-  width: 60px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 10px;
-  color: rgba(255,255,255,1);
-  letter-spacing: 1px;
 }
 
 .formula_output p {
@@ -966,32 +943,34 @@ h2 {
   margin-block-end: 5px;
 }
 
-h1 {
-  Font-family: Montserrat;
-  Font-size: 1em;
-  letter-spacing: 1.3px;
-  Font-weight: 600;
+.formula_output {
   position: absolute;
-  left: 5em;
-  top: 47em;
-  Color: #fff;
+  overflow: visible;
+  width: 314px;
+  height: 93px;
+  left: 0px;
+  top: 23px;
+}
+
+h1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+  width: 60px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  color: rgba(255,255,255,1);
+  letter-spacing: 1px;
 }
 
 
 /* FORMULA SECTION */
-}
 
-
-
-
-
-
-
-
-}
-
-
-/* FORMULA SECTION */
 }
 
 
