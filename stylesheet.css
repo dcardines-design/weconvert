@@ -458,9 +458,18 @@ h2 {
 
 .formula {
   position: absolute;
-  top: 457.5pt;
-  left: 30pt;
-  color: #4DB1FF;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+  width: 60px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  color: rgba(255,255,255,1);
+  letter-spacing: 1px;
 }
 
 .formula_output p {
