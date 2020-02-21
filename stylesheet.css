@@ -1,8 +1,10 @@
+
 .gradientbox{
     background-image: linear-gradient(to top right, rgb(0, 75, 150), rgb(6, 170, 247));
     /* Set rules to fill background */
     min-height: 100%;
     min-width: 1024px;
+    animation: change 10s ease-in-out infinite;
       
     /* Set up proportionate scaling */
     width: 100%;
@@ -12,13 +14,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    }
     
-    @media screen and (max-width: 1024px) { /* Specific to this particular image */
-      img.bg {
-        left: 50%;
-        margin-left: -512px;   /* 50% */
-      }
     }
 
 .from_buttonbox label span.first{
@@ -350,7 +346,7 @@ h2 {
   Font-size: 5px;
   Font-weight: 350;
   color: #FFF;
-  position: absolute;
+  position: fixed;
   left: 30px;
   bottom: 43px;
   margin-block-start: 0;
@@ -363,7 +359,7 @@ h2 {
   Font-size: 8px;
   Font-weight: 350;
   color: #FFF;
-  position: absolute;
+  position: fixed;
   right: 30px;
   bottom: 30px;
   margin-block-start: 0;
@@ -387,10 +383,109 @@ h2 {
 .welogo {
   top: 30px;
   right: 30px;
-  position: absolute;
+  position: fixed;
   max-width: 100%;
   max-height: 100px;
-  display: block;
   z-index: 20;
 }
+
+@media (min-width:320px) and (max-width:500px){
+  .welogo {
+    margin: 0% auto;
+    top: 50px;
+    right: 50px;
+    height: 3.5em;
+    width: 5.5em;
+  }
+
+  .dgc {
+    Font-family: montserrat;
+    Font-size: 2em;
+    Font-weight: 600;
+    color: #FFF;
+    position: fixed;
+    left: 57px;
+    bottom: 60px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.designedby {
+  Font-family: montserrat;
+  Font-size: 1em;
+  Font-weight: 350;
+  color: #FFF;
+  position: fixed;
+  left: 60px;
+  bottom: 100px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  letter-spacing: 2px;
+}
+
+.ver {
+  Font-family: montserrat;
+  Font-size: 20px;
+  Font-weight: 350;
+  color: #FFF;
+  position: fixed;
+  right: 60px;
+  bottom: 60px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  letter-spacing: 2px;
+}
+
+
+/* FORMULA SECTION */
+
+.formula_output {
+  position: absolute;
+  height: 14.3em;
+  width: 42.5em;
+  border-radius: .75em;
+  background-color: #4DB1FF;
+}
+
+.formula {
+  position: absolute;
+  top: 50em;
+  left: 5em;
+  color: #4DB1FF;
+}
+
+.formula_output p {
+  padding-top: .6em;
+  padding-right: .8em;
+  padding-bottom: .8em;
+  padding-left: .8em;
+  position: relative;
+  Font-family: montserrat;
+  Font-size: 2em;
+  Font-weight: 350;
+  color: #fff;
+  margin-block-start: 2px;
+  margin-block-end: 5px;
+}
+
+h1 {
+  Font-family: montserrat;
+  Font-size: 1em;
+  letter-spacing: 1.3px;
+  Font-weight: 600;
+  position: absolute;
+  left: 5em;
+  top: 47em;
+  Color: #fff;
+}
+
+
+/* FORMULA SECTION */
+}
+
+
+
+
+
+
 
