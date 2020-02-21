@@ -549,6 +549,13 @@ input, .to_form[type=number]{
   padding-left: 21px;
 }
 
+label, .to_form {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 600;
+  color: #FFFFFF;
+  font-kerning: normal 50;
+}
 
 
 /* TO SECTION TO SECTION TO SECTION TO SECTION TO SECTION TO SECTION */
