@@ -498,7 +498,7 @@ input, .dpi_form[type=number]{
 }
 
 .formula_output p {
-  padding-top: 11.5px;
+  padding-top: 10px;
   padding-left: 13px;
   padding-right: 13px;
   padding-bottom: 13px;
