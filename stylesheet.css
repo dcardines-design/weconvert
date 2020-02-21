@@ -505,7 +505,7 @@ h1 {
   height: 93px;
   width: 349px;
   border-radius: 5px;
-  background-color: #4DB1FF;
+  background-color: transparent;
 }
 
 .formula_output p {
