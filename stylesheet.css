@@ -468,7 +468,8 @@ h1 {
   Font-size: 10px;
   letter-spacing: 1.3px;
   Font-weight: 600;
-  top: -5px;
+  top: 201px;
+  left: 686px;
   position: absolute;
   Color: #fff;
 }
@@ -763,16 +764,6 @@ label, .dpi_form {
   left: 686px;
   top: 200px;
   color: #4DB1FF;
-}
-
-h1 {
-  Font-family: Montserrat;
-  Font-size: 10px;
-  letter-spacing: 1.3px;
-  Font-weight: 600;
-  top: -5px;
-  position: absolute;
-  Color: #fff;
 }
 
 h2 {
