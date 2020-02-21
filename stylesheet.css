@@ -490,6 +490,17 @@ input, .dpi_form[type=number]{
   color: #4DB1FF;
 }
 
+h1 {
+  Font-family: Montserrat;
+  Font-size: 10px;
+  letter-spacing: 1.3px;
+  Font-weight: 600;
+  Color: #fff;
+  position: absolute;
+  top: 390px;
+  left: 30px;
+}
+
 .formula_output {
   height: 93px;
   width: 349px;
