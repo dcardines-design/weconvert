@@ -444,12 +444,12 @@ h2 {
 /* FORMULA SECTION */
 
 .formula_output {
-    position: absolute;
-    width: 161px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
-    overflow: visible;
+  position: absolute;
+  overflow: visible;
+  width: 314px;
+  height: 93px;
+  left: 0px;
+  top: 23px;
 }
 
 :root{
