@@ -863,10 +863,10 @@ h2 {
  
 /* TAGS */ 
   .welogo {
-    top: 50px;
-    right: 50px;
-    height: 2em;
-    width: 3.5em;
+    top: 30px;
+    right: 30px;
+    height: 1em;
+    width: 1em;
   }
 
   .dgc {
@@ -875,8 +875,8 @@ h2 {
     Font-weight: 600;
     color: #FFF;
     position: fixed;
-    left: 25px;
-    bottom: 25px;
+    left: 30px;
+    bottom: 30px;
     margin-block-start: 0;
     margin-block-end: 0;
 }
@@ -887,11 +887,10 @@ h2 {
   Font-weight: 350;
   color: #FFF;
   position: fixed;
-  left: 25px;
+  left: 30px;
   bottom: 35px;
   margin-block-start: 0;
   margin-block-end: 0;
-  letter-spacing: 2px;
 }
 
 .ver {
@@ -900,8 +899,8 @@ h2 {
   Font-weight: 350;
   color: #FFF;
   position: fixed;
-  right: 60px;
-  bottom: 60px;
+  right: 30px;
+  bottom: 30px;
   margin-block-start: 0;
   margin-block-end: 0;
   letter-spacing: 2px;
