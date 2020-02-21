@@ -302,10 +302,21 @@ label, .dpi_form {
   top: 201px;
 }
 
+h1 {
+  Font-family: Montserrat;
+  Font-size: 10px;
+  letter-spacing: 1.3px;
+  Font-weight: 600;
+  top: 201px;
+  left: 686px;
+  position: absolute;
+  Color: #fff;
+}
+
 .formula {
   position: absolute;
   left: 686px;
-  top: 195px;
+  top: 224px;
   color: #4DB1FF;
 }
 
@@ -463,16 +474,6 @@ h2 {
   top: 23px;
 }
 
-h1 {
-  Font-family: Montserrat;
-  Font-size: 10px;
-  letter-spacing: 1.3px;
-  Font-weight: 600;
-  top: 201px;
-  left: 686px;
-  position: absolute;
-  Color: #fff;
-}
 
 .from_buttonbox label span.first{
     background-color: transparent;
