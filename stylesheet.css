@@ -450,6 +450,7 @@ h2 {
 
 .formula {
   position: absolute;
+  position: fixed;
   top: 50em;
   left: 5em;
   color: #4DB1FF;
@@ -474,7 +475,7 @@ h1 {
   Font-size: 1em;
   letter-spacing: 1.3px;
   Font-weight: 600;
-  position: absolute;
+  position: fixed;
   left: 5em;
   top: 47em;
   Color: #fff;
