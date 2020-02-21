@@ -871,7 +871,7 @@ h2 {
 
   .dgc {
     Font-family: Montserrat;
-    Font-size: .5pt;
+    Font-size: 10px;
     Font-weight: 600;
     color: #FFF;
     position: fixed;
@@ -883,7 +883,7 @@ h2 {
 
 .designedby {
   Font-family: Montserrat;
-  Font-size: .5em;
+  Font-size: 5px;
   Font-weight: 350;
   color: #FFF;
   position: fixed;
