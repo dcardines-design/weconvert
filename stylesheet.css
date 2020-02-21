@@ -866,7 +866,7 @@ h2 {
     top: 30px;
     right: 30px;
     height: 1em;
-    width: 1em;
+    width: 2em;
   }
 
   .dgc {
@@ -888,7 +888,7 @@ h2 {
   color: #FFF;
   position: fixed;
   left: 30px;
-  bottom: 35px;
+  bottom: 45px;
   margin-block-start: 0;
   margin-block-end: 0;
 }
