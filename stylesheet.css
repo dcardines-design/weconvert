@@ -309,17 +309,6 @@ label, .dpi_form {
   color: #4DB1FF;
 }
 
-h1 {
-  position: absolute;
-  Font-family: Montserrat;
-  Font-size: 10px;
-  letter-spacing: 1.3px;
-  Font-weight: 600;
-  Color: #fff;
-  top: 201px;
-  left: 686px;
-}
-
 h2 {
   Font-family: Montserrat;
   Font-size: 30px;
@@ -475,19 +464,13 @@ h2 {
 }
 
 h1 {
+  Font-family: Montserrat;
+  Font-size: 10px;
+  letter-spacing: 1.3px;
+  Font-weight: 600;
+  top: -5px;
   position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: visible;
-  width: 60px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 10px;
-  color: rgba(255,255,255,1);
-  letter-spacing: 1px;
+  Color: #fff;
 }
 
 .from_buttonbox label span.first{
