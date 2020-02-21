@@ -310,6 +310,7 @@ label, .dpi_form {
 }
 
 h1 {
+  position: absolute;
   Font-family: Montserrat;
   Font-size: 10px;
   letter-spacing: 1.3px;
