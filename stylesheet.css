@@ -775,7 +775,7 @@ label, .dpi_form {
 .formula {
   position: absolute;
   left: 686px;
-  top: 220px;
+  top: 200px;
   color: #4DB1FF;
 }
 
@@ -784,9 +784,8 @@ h1 {
   Font-size: 10px;
   letter-spacing: 1.3px;
   Font-weight: 600;
+  top: -5px;
   position: absolute;
-  left: 686px;
-  top: 193px;
   Color: #fff;
 }
 
@@ -872,7 +871,7 @@ h2 {
 
   .dgc {
     Font-family: Montserrat;
-    Font-size: 22.5pt;
+    Font-size: .5pt;
     Font-weight: 600;
     color: #FFF;
     position: fixed;
@@ -884,7 +883,7 @@ h2 {
 
 .designedby {
   Font-family: Montserrat;
-  Font-size: 1em;
+  Font-size: .5em;
   Font-weight: 350;
   color: #FFF;
   position: fixed;
@@ -897,7 +896,7 @@ h2 {
 
 .ver {
   Font-family: Montserrat;
-  Font-size: 20px;
+  Font-size: 10px;
   Font-weight: 350;
   color: #FFF;
   position: fixed;
@@ -914,46 +913,6 @@ h2 {
 :root{
   --web-view-ids: iPhone_X_XS_11_Pro___1;
 }
-
-.formula {
-  width: 314px;
-  height: 116px;
-  left: 30px;
-  top: 434.5px;
-}
-
-.formula_output p {
-  padding-top: .6em;
-  padding-right: .8em;
-  padding-bottom: .8em;
-  padding-left: .8em;
-  position: relative;
-  Font-family: Montserrat;
-  Font-size: 2em;
-  Font-weight: 350;
-  color: #fff;
-  margin-block-start: 2px;
-  margin-block-end: 5px;
-}
-
-.formula_output {
-    width: 314px;
-    height: 93px;
-    left: 0px;
-    top: 23px;
-}
-
-h1 {
-  overflow: visible;
-  width: 60px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 10px;
-  color: rgba(255,255,255,1);
-  letter-spacing: 1px;
-}
-
 
 /* FORMULA SECTION */
 
