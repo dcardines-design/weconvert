@@ -495,10 +495,20 @@ input, .dpi_form[type=number]{
   width: 349px;
   border-radius: 5px;
   background-color: #4DB1FF;
-  margin-top: 11px;
-  margin-bottom: 13px;
-  margin-left: 13px;
-  margin-right: 13px;
+}
+
+.formula_output p {
+  padding-top: 11.5px;
+  padding-top: 13px;
+  padding-top: 13px;
+  padding-top: 13px;
+  position: relative;
+  Font-family: Montserrat;
+  Font-size: 13px;
+  Font-weight: 350;
+  color: #fff;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
 }
 
 /* FORMULA SECTION FORMULA SECTIOM FORMULA SECTION FORMULA SECTION FORMULA SECTION */
