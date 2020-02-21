@@ -864,8 +864,6 @@ h2 {
  
 /* TAGS */ 
   .welogo {
-    margin: 0% auto;
-    position: fixed;
     top: 50px;
     right: 50px;
     height: 2em;
@@ -918,11 +916,10 @@ h2 {
 }
 
 .formula {
-  width: 15em;
-  height: 25em;
+  width: 314px;
+  height: 116px;
   left: 30px;
   top: 434.5px;
-  overflow: visible;
 }
 
 .formula_output p {
@@ -940,12 +937,10 @@ h2 {
 }
 
 .formula_output {
-  position: absolute;
-  overflow: visible;
-  width: 314pt;
-  height: 93pt;
-  left: 0px;
-  top: 23px;
+    width: 314px;
+    height: 93px;
+    left: 0px;
+    top: 23px;
 }
 
 h1 {
