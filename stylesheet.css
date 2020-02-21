@@ -495,6 +495,10 @@ input, .dpi_form[type=number]{
   width: 349px;
   border-radius: 5px;
   background-color: #4DB1FF;
+  margin-top: 11px;
+  margin-bottom: 13px;
+  margin-left: 13px;
+  margin-right: 13px;
 }
 
 /* FORMULA SECTION FORMULA SECTIOM FORMULA SECTION FORMULA SECTION FORMULA SECTION */
