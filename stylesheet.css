@@ -534,7 +534,7 @@ h1 {
 .to_section {
   position: fixed;
   left: 30px;
-  top: 280px;
+  top: 260px;
 }
 
 input, .to_form[type=number]{
