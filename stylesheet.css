@@ -532,7 +532,7 @@ h1 {
 /* TO SECTION TO SECTION TO SECTION TO SECTION TO SECTION TO SECTION */
 
 .to_section {
-  position: absolute;
+  position: fixed;
   left: 30px;
   top: 270px;
 }
