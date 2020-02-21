@@ -499,9 +499,9 @@ input, .dpi_form[type=number]{
 
 .formula_output p {
   padding-top: 11.5px;
-  padding-top: 13px;
-  padding-top: 13px;
-  padding-top: 13px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-bottom: 13px;
   position: relative;
   Font-family: Montserrat;
   Font-size: 13px;
