@@ -485,15 +485,19 @@ input, .dpi_form[type=number]{
 
 .formula {
   position: absolute;
-  left: 686px;
-  top: 200px;
+  left: 30px;
+  bottom: 261.5px;
   color: #4DB1FF;
 }
 
-
+.formula_output {
+  height: 248px;
+  width: 161px;
+  border-radius: 5px;
+  background-color: #4DB1FF;
+}
 
 /* FORMULA SECTION FORMULA SECTIOM FORMULA SECTION FORMULA SECTION FORMULA SECTION */
 
 
-}
 }
