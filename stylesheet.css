@@ -464,7 +464,7 @@ h2 {
 .dpi_section {
   position: absolute;
   left: 30px;
-  bottom: 159px;
+  top: 580.5px;
 }
 
 input, .dpi_form[type=number]{
