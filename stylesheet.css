@@ -574,7 +574,7 @@ label, .to_form {
 }
 
 .to_buttonbox label span.last{
-  display: inline-block;
+  display: inline;
   background-color: transparent;
   background-repeat:no-repeat;
   border: none;
@@ -587,7 +587,6 @@ label, .to_form {
   font-size: 18px;
   opacity: 0.8;
   transition: 0.3s;
-  position: absolute;
   margin: 19.5px 0px 0px 20px;
 }
 
