@@ -235,7 +235,7 @@ label, .from_form {
   font-family: Montserrat;
   font-size: 25px;
   font-weight: 600;
-  color: #FFFFFF;
+  color: white;
   font-kerning: normal 50;
 }
 
@@ -251,7 +251,7 @@ label, .to_form {
   font-family: Montserrat;
   font-size: 25px;
   font-weight: 600;
-  color: #FFFFFF;
+  color: white;
   font-kerning: normal 50;
 }
 
@@ -462,14 +462,14 @@ li {
   font-size: 10px;
   font-weight: 200;
   position: absolute;
-  top: 75px;
+  top: 65px;
   color: #fff;
 }
 
 .dpi_section {
   position: fixed;
   left: 30px;
-  top: 600px;
+  top: 590px;
 }
 
 input, .dpi_form[type=number]{
@@ -492,7 +492,7 @@ input, .dpi_form[type=number]{
 .formula {
   position: fixed;
   left: 30px;
-  top: 485.5px;
+  top: 475.5px;
   color: #4DB1FF;
 }
 
@@ -503,7 +503,7 @@ h1 {
   Font-weight: 600;
   Color: #fff;
   position: fixed;
-  top: 462.5px;
+  top: 452.5px;
   left: 30px;
 }
 
@@ -539,10 +539,7 @@ h1 {
 .to_section {
   position: fixed;
   left: 30px;
-  top: 305px;
-  background-color: #4DB1FF;
-  border-radius: 5px;
-  color: #FFFFFF;
+  top: 295px;
 }
 
 input, .to_form[type=number] {
@@ -555,14 +552,13 @@ input, .to_form[type=number] {
   background-color: #4DB1FF;
   transition: 0.3s;
   padding-left: 21px;
-  color: #FFFFFF;
 }
 
 label, .to_form {
   font-family: Montserrat;
   font-size: 25px;
   font-weight: 600;
-  font-color: #FFFFFF;
+  color: white;
   font-kerning: normal 50;
 }
 
@@ -574,7 +570,7 @@ label, .to_form {
   border-radius: 5px;
   position: fixed;
   left: 30px;
-  top: 395px;
+  top: 385px;
   display: inline-block;
 }
 
@@ -618,7 +614,7 @@ label, .to_form {
 
 .from_section {
   position: fixed;
-  top: 123px;
+  top: 113px;
   left: 30px;
 }
 
@@ -637,19 +633,20 @@ label, .from_form {
   font-family: Montserrat;
   font-size: 25px;
   font-weight: 600;
-  color: #FFFFFF;
+  color: white;
+  ;
   font-kerning: normal 50;
 }
 
 .from_buttonbox {
   width: 350px;
   height: 47px;
-  border-color: #fff;
+  border-color: white;
   border: 1px solid #CCE7FF;
   border-radius: 5px;
   position: fixed;
   left: 30px;
-  top: 213px;
+  top: 203px;
   display: inline-block;
 }
 
@@ -688,7 +685,7 @@ h2 {
   Font-weight: 600;
   position: fixed;
   left: 50%;
-  top: 241.5px;
+  top: 231.5px;
   Color: #fff}
 
 
