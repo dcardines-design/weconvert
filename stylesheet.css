@@ -471,7 +471,7 @@ li {
 .dpi_section {
   position: fixed;
   left: 30px;
-  top: 550px;
+  top: 570px;
 }
 
 input, .dpi_form[type=number]{
@@ -494,7 +494,7 @@ input, .dpi_form[type=number]{
 .formula {
   position: fixed;
   left: 30px;
-  top: 435.5px;
+  top: 455.5px;
   color: #4DB1FF;
 }
 
@@ -505,7 +505,7 @@ h1 {
   Font-weight: 600;
   Color: #fff;
   position: fixed;
-  top: 412.5px;
+  top: 432.5px;
   left: 30px;
 }
 
@@ -541,7 +541,7 @@ h1 {
 .to_section {
   position: fixed;
   left: 30px;
-  top: 255px;
+  top: 275px;
   background-color: #4DB1FF;
   color: #ffffff;
   border-radius: 5px;
@@ -586,7 +586,7 @@ label, .to_form:disabled {
   border-radius: 5px;
   position: fixed;
   left: 30px;
-  top: 355px;
+  top: 375px;
   display: inline-block;
 }
 
