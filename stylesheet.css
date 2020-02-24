@@ -558,6 +558,39 @@ label, .to_form {
   font-kerning: normal 50;
 }
 
+.to_buttonbox {
+  width: 248px;
+  height: 306px;
+  border-color: #fff;
+  border: 1px solid #CCE7FF;
+  border-radius: 5px;
+  position: absolute;
+  left: 246px;
+  top: 270px;
+}
+
+.to_buttonbox label span.first{
+  display: none;
+}
+
+.to_buttonbox label span.last{
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  font-family: Montserrat;
+  color: #4EA2EB;
+  font-weight: 700;
+  font-size: 18px;
+  opacity: 0.8;
+  transition: 0.3s;
+  position: absolute;
+  right: 21px;
+  margin: 19.5px 0px 0px 20px;
+}
+
 /* TO SECTION TO SECTION TO SECTION TO SECTION TO SECTION TO SECTION */
 
 
