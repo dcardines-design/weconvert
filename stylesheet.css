@@ -50,25 +50,25 @@
 }
 
 .from_buttonbox label input:hover ~ span.first{
-    color: white;
+    color: #ffffff;
     opacity: 1; 
     font-weight: 700;
 }
 
 .from_buttonbox label input:hover ~ span.last{
-    color: white;
+    color: #ffffff;
     opacity: 1; 
     font-weight: 700;
 }
 
 .from_buttonbox label input:checked ~ span.first{
-    color: white;
+    color: #ffffff;
     opacity: 1; 
     font-weight: 700;
 }
 
 .from_buttonbox label input:checked ~ span.last{
-    color: white;
+    color: #ffffff;
     opacity: 1; 
     font-weight: 700;
 }
@@ -127,25 +127,25 @@
 }
 
 .to_buttonbox label input:hover ~ span.first{
-    color: white;
+    color: #ffffff;
     opacity: 1; 
     font-weight: 700;
 }
 
 .to_buttonbox label input:hover ~ span.last{
-    color: white;
+    color: #ffffff;
     opacity: 1; 
     font-weight: 700;
 }
 
 .to_buttonbox label input:checked ~ span.first{
-    color: white;
+    color: #ffffff;
     opacity: 1; 
     font-weight: 700;
 }
 
 .to_buttonbox label input:checked ~ span.last{
-    color: white;
+    color: #ffffff;
     opacity: 1; 
     font-weight: 700;
 }
@@ -191,7 +191,7 @@ input, .to_form[type=number]{
   border-style: dashed;
   border-radius: 5px;
   background-color: #4DB1FF;
-  color: white;
+  color: #ffffff;
   transition: 0.3s;
   padding-left: 21px;
 }
@@ -236,7 +236,7 @@ label, .from_form {
   font-family: Montserrat;
   font-size: 25px;
   font-weight: 600;
-  color: white;
+  color: #ffffff;
   font-kerning: normal 50;
 }
 
@@ -252,7 +252,7 @@ label, .to_form {
   font-family: Montserrat;
   font-size: 25px;
   font-weight: 600;
-  color: white;
+  color: #ffffff;
   font-kerning: normal 50;
 }
 
@@ -542,7 +542,7 @@ h1 {
   left: 30px;
   top: 295px;
   background-color: #4DB1FF;
-  color: white;
+  color: #ffffff;
   border-radius: 5px;
 }
 
@@ -556,7 +556,7 @@ input, .to_form[type=number] {
   background-color: #4DB1FF;
   transition: 0.3s;
   padding-left: 21px;
-  color: white;
+  color: #ffffff;
   z-index: 1;
 }
 
@@ -564,7 +564,7 @@ label, .to_form {
   font-family: Montserrat;
   font-size: 25px;
   font-weight: 600;
-  color: white;
+  color: #ffffff;
   font-kerning: normal 50;
 }
 
@@ -639,15 +639,14 @@ label, .from_form {
   font-family: Montserrat;
   font-size: 25px;
   font-weight: 600;
-  color: white;
-  ;
+  color: #ffffff;
   font-kerning: normal 50;
 }
 
 .from_buttonbox {
   width: 350px;
   height: 47px;
-  border-color: white;
+  border-color: #ffffff;
   border: 1px solid #CCE7FF;
   border-radius: 5px;
   position: fixed;
