@@ -191,6 +191,7 @@ input, .to_form[type=number]{
   border-style: dashed;
   border-radius: 5px;
   background-color: #4DB1FF;
+  color: white;
   transition: 0.3s;
   padding-left: 21px;
 }
@@ -555,6 +556,7 @@ input, .to_form[type=number] {
   background-color: #4DB1FF;
   transition: 0.3s;
   padding-left: 21px;
+  color: white;
 }
 
 label, .to_form {
