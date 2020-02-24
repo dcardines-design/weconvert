@@ -471,7 +471,7 @@ li {
 .dpi_section {
   position: fixed;
   left: 30px;
-  top: 570px;
+  top: 550px;
 }
 
 input, .dpi_form[type=number]{
@@ -510,7 +510,7 @@ h1 {
 }
 
 .formula_output {
-  height: 93px;
+  height: 74px;
   width: 349px;
   border-radius: 5px;
   background-color: #4DB1FF;
