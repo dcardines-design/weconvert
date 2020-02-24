@@ -557,6 +557,7 @@ input, .to_form[type=number] {
   transition: 0.3s;
   padding-left: 21px;
   color: white;
+  z-index: 1;
 }
 
 label, .to_form {
