@@ -471,7 +471,7 @@ li {
 .dpi_section {
   position: fixed;
   left: 30px;
-  top: 570px;
+  top: 550px;
 }
 
 input, .dpi_form[type=number]{
@@ -494,7 +494,7 @@ input, .dpi_form[type=number]{
 .formula {
   position: fixed;
   left: 30px;
-  top: 455.5px;
+  top: 435.5px;
   color: #4DB1FF;
 }
 
@@ -505,7 +505,7 @@ h1 {
   Font-weight: 600;
   Color: #fff;
   position: fixed;
-  top: 432.5px;
+  top: 412.5px;
   left: 30px;
 }
 
@@ -541,7 +541,7 @@ h1 {
 .to_section {
   position: fixed;
   left: 30px;
-  top: 275px;
+  top: 255px;
   background-color: #4DB1FF;
   color: #ffffff;
   border-radius: 5px;
@@ -586,7 +586,7 @@ label, .to_form:disabled {
   border-radius: 5px;
   position: fixed;
   left: 30px;
-  top: 365px;
+  top: 345px;
   display: inline-block;
 }
 
@@ -630,7 +630,7 @@ label, .to_form:disabled {
 
 .from_section {
   position: fixed;
-  top: 93px;
+  top: 73px;
   left: 30px;
 }
 
@@ -661,7 +661,7 @@ label, .from_form {
   border-radius: 5px;
   position: fixed;
   left: 30px;
-  top: 183px;
+  top: 173px;
   display: inline-block;
 }
 
@@ -700,7 +700,7 @@ h2 {
   Font-weight: 600;
   position: fixed;
   left: 50%;
-  top: 211.5px;
+  top: 191.5px;
   Color: #fff}
 
 
