@@ -572,6 +572,11 @@ label, .to_form {
   font-kerning: normal 50;
 }
 
+label, .to_form:disabled {
+  color: #ffffff;
+}
+
+
 .to_buttonbox {
   width: 350px;
   height: 47px;
