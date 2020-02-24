@@ -463,7 +463,8 @@ li {
   font-size: 10px;
   font-weight: 200;
   position: absolute;
-  top: 65px;
+  top: -12px;
+  left: 200px;
   color: #fff;
 }
 
