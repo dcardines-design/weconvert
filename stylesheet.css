@@ -559,14 +559,14 @@ label, .to_form {
 }
 
 .to_buttonbox {
-  width: 248px;
-  height: 306px;
+  width: 314px;
+  height: 47px;
   border-color: #fff;
   border: 1px solid #CCE7FF;
   border-radius: 5px;
   position: absolute;
-  left: 246px;
-  top: 270px;
+  left: 30px;
+  top: 211px;
 }
 
 .to_buttonbox label span.first{
@@ -574,6 +574,7 @@ label, .to_form {
 }
 
 .to_buttonbox label span.last{
+  display: inline-block;
   background-color: transparent;
   background-repeat:no-repeat;
   border: none;
