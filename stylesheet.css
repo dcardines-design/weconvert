@@ -540,6 +540,7 @@ h1 {
   position: fixed;
   left: 30px;
   top: 305px;
+  background-color: #4DB1FF;
 }
 
 input, .to_form[type=number] {
