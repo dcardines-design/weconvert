@@ -399,8 +399,8 @@ li {
  
 /* TAGS */ 
   .welogo {
-    top: 15px;
-    right: 15px;
+    bottom: 15px;
+    right: 50%;
     height: 23px;
     width: 39px;
   }
