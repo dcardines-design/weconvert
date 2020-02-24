@@ -619,7 +619,7 @@ label, .to_form {
 }
 
 input, .from_form[type=number] {
-  width: 338px;
+  width: 316px;
   height: 72px;
   size: 25px;
   border: 1px dashed #CCE7FF;
