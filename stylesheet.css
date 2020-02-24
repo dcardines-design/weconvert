@@ -537,7 +537,7 @@ h1 {
 /* TO SECTION TO SECTION TO SECTION TO SECTION TO SECTION TO SECTION */
 
 .to_section {
-  position: absolute;
+  position: fixed;
   left: 30px;
   top: 305px;
 }
@@ -568,7 +568,7 @@ label, .to_form {
   border-color: #fff;
   border: 1px solid #CCE7FF;
   border-radius: 5px;
-  position: absolute;
+  position: fixed;
   left: 30px;
   top: 395px;
   display: inline-block;
@@ -613,7 +613,7 @@ label, .to_form {
 /* FROM SECTION FROM SECTION FROM SECTION FROM SECTION FROM SECTION */
 
 .from_section {
-  position: absolute;
+  position: fixed;
   top: 123px;
   left: 30px;
 }
@@ -643,7 +643,7 @@ label, .from_form {
   border-color: #fff;
   border: 1px solid #CCE7FF;
   border-radius: 5px;
-  position: absolute;
+  position: fixed;
   left: 30px;
   top: 213px;
   display: inline-block;
@@ -682,7 +682,7 @@ h2 {
   Font-size: 30px;
   letter-spacing: 1.3px;
   Font-weight: 600;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 241.5px;
   Color: #fff}
