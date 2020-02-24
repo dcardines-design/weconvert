@@ -533,7 +533,7 @@ h1 {
 /* TO SECTION TO SECTION TO SECTION TO SECTION TO SECTION TO SECTION */
 
 .to_section {
-  position: fixed;
+  position: absolute;
   left: 30px;
   top: 270px;
 }
@@ -568,8 +568,8 @@ label, .to_form {
 /* FROM SECTION FROM SECTION FROM SECTION FROM SECTION FROM SECTION */
 
 .from_section {
-  position: fixed;
-  left: 20px;
+  position: absolute;
+  left: 30px;
   top: 200px;
 }
 
