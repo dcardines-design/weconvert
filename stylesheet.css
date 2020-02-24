@@ -556,19 +556,19 @@ input, .to_form[type=number] {
   background-color: #4DB1FF;
   transition: 0.3s;
   padding-left: 21px;
-  color: #ffffff!important;
+  color: #ffffff;
   z-index: 1;
 }
 
 input, .to_form[type=number]:disabled {
-  color: #ffffff!important;
+  color: #ffffff;
 }
 
 label, .to_form {
   font-family: Montserrat;
   font-size: 25px;
   font-weight: 600;
-  color: #ffffff!important;
+  color: #ffffff;
   font-kerning: normal 50;
 }
 
