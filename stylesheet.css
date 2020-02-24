@@ -560,6 +560,10 @@ input, .to_form[type=number] {
   z-index: 1;
 }
 
+input, .to_form[type=number]:disabled {
+  color: #ffffff!important;
+}
+
 label, .to_form {
   font-family: Montserrat;
   font-size: 25px;
