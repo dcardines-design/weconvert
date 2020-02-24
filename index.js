@@ -46,7 +46,7 @@ for (var ti = 0, tLength = fromRadios.length; ti < tLength; ti++)
     
     if (fromRadios[fi].value == "mm" && toRadios[ti].value == "m") {
         var operatorValue = fromValue / 1000;
-        document.getElementById('toValue').value = operatorValue;
+        document.getElementById('toValue').value = operatorValue.content.style.color = 'white';
         document.getElementById('formula_text').innerHTML = "divide the length value by 1000";
     }
 
