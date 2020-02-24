@@ -542,6 +542,7 @@ h1 {
   top: 305px;
   background-color: #4DB1FF;
   border-radius: 5px;
+  color: #FFFFFF;
 }
 
 input, .to_form[type=number] {
