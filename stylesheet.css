@@ -556,7 +556,7 @@ input, .to_form[type=number] {
   background-color: #4DB1FF;
   transition: 0.3s;
   padding-left: 21px;
-  color: #ffffff;
+  color: #ffffff!important;
   z-index: 1;
 }
 
