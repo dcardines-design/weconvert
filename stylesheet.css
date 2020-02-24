@@ -471,7 +471,6 @@ input, .dpi_form[type=number]{
   width: 161px;
   height: 72px;
   size: 25px;
-  box-shadow: none;
   border: 1px solid #CCE7FF;
   border-style: dashed;
   border-radius: 5px;
