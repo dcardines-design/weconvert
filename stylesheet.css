@@ -389,6 +389,10 @@ h2 {
   z-index: 20;
 }
 
+li {
+  list-style: none;
+}
+
 @media only screen and (min-width:320px) and (max-width:500px){
  
  
@@ -458,14 +462,14 @@ h2 {
   font-size: 10px;
   font-weight: 200;
   position: absolute;
-  top: 85px;
+  top: 75px;
   color: #fff;
 }
 
 .dpi_section {
   position: fixed;
   left: 30px;
-  top: 440;
+  top: 600px;
 }
 
 input, .dpi_form[type=number]{
@@ -488,7 +492,7 @@ input, .dpi_form[type=number]{
 .formula {
   position: fixed;
   left: 30px;
-  top: 380px;
+  top: 485.5px;
   color: #4DB1FF;
 }
 
@@ -499,7 +503,7 @@ h1 {
   Font-weight: 600;
   Color: #fff;
   position: fixed;
-  top: 360px;
+  top: 462.5px;
   left: 30px;
 }
 
@@ -535,11 +539,11 @@ h1 {
 .to_section {
   position: absolute;
   left: 30px;
-  top: 270px;
+  top: 305px;
 }
 
 input, .to_form[type=number] {
-  width: 225px;
+  width: 316px;
   height: 72px;
   size: 25px;
   border: 1px dashed #4DB1FF;
@@ -559,14 +563,15 @@ label, .to_form {
 }
 
 .to_buttonbox {
-  width: 75%;
+  width: 338px;
   height: 47px;
   border-color: #fff;
   border: 1px solid #CCE7FF;
   border-radius: 5px;
   position: absolute;
   left: 30px;
-  top: 211px;
+  top: 395px;
+  display: inline-block;
 }
 
 .to_buttonbox label span.first{
@@ -574,7 +579,11 @@ label, .to_form {
 }
 
 .to_buttonbox label span.last{
+  left: -5px;
+  right: 0px;
+  top: 5px;
   display: inline;
+  position: relative;
   background-color: transparent;
   background-repeat:no-repeat;
   border: none;
@@ -587,7 +596,11 @@ label, .to_form {
   font-size: 18px;
   opacity: 0.8;
   transition: 0.3s;
-  margin: 19.5px 0px 0px 20px;
+  margin: 20px 0px 0px 20px;
+}
+
+.to_select{
+  display: inline-block;
 }
 
 /* TO SECTION TO SECTION TO SECTION TO SECTION TO SECTION TO SECTION */
@@ -601,12 +614,12 @@ label, .to_form {
 
 .from_section {
   position: absolute;
+  top: 123px;
   left: 30px;
-  top: 193px;
 }
 
 input, .from_form[type=number] {
-  width: 225px;
+  width: 316px;
   height: 72px;
   size: 25px;
   border: 1px dashed #CCE7FF;
@@ -624,7 +637,55 @@ label, .from_form {
   font-kerning: normal 50;
 }
 
+.from_buttonbox {
+  width: 338px;
+  height: 47px;
+  border-color: #fff;
+  border: 1px solid #CCE7FF;
+  border-radius: 5px;
+  position: absolute;
+  left: 30px;
+  top: 213px;
+  display: inline-block;
+}
+
+.from_buttonbox label span.first{
+  display: none;
+}
+
+.from_buttonbox label span.last{
+  left: -5px;
+  right: 0px;
+  top: 5px;
+  display: inline;
+  position: relative;
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  font-family: Montserrat;
+  color: #4EA2EB;
+  font-weight: 700;
+  font-size: 18px;
+  opacity: 0.8;
+  transition: 0.3s;
+  margin: 20px 0px 0px 20px;
+}
+
+
 /* FROM SECTION FROM SECTION FROM SECTION FROM SECTION FROM SECTION */
+
+h2 {
+  Font-family: Montserrat;
+  Font-size: 30px;
+  letter-spacing: 1.3px;
+  Font-weight: 600;
+  position: absolute;
+  left: 50%;
+  top: 241.5px;
+  Color: #fff}
 
 
 }
