@@ -570,7 +570,7 @@ label, .to_form {
 .from_section {
   position: absolute;
   left: 30px;
-  top: 210px;
+  top: 193px;
 }
 
 input, .from_form[type=number] {
