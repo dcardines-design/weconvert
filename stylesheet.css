@@ -399,11 +399,10 @@ li {
  
 /* TAGS */ 
   .welogo {
-    bottom: 15px;
-    right: 50%;
+    top: 15px;
+    right: 15px;
     height: 23px;
     width: 39px;
-    position: fixed;
   }
 
   .dgc {
